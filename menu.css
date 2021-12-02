@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color:#323232;
+    border: none;
+
+}
+
+#menu-container{
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body {
+    margin: 100;
+    padding: 0;
+    background: #5f9ea0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    background-size: cover;
+}
+
+h2{
+	color: #ffffff;
+    font-size: large;
+    
+}
+
+nav .menu-item.highlight:hover ~ #sub-menu-container #sub-menu-holder #sub-menu-bottom { opacity: 1; }
+
+
+.menu-item .title {
+    font-weight: 50;
+    color: rgb(44 70 86);
+    margin: 0 0 0.25em 0;
+}
+.menu-item .icon-box * {
+    transition: all 0.1s ease-out;
+    position: relative;
+}
+.menu-item .icon-box.space {
+    margin-bottom: 1.25em;
+}
+.menu-item .icon-box.flat {height: 1.5em;margin-bottom: 0.5em;}
+.menu-item .icon, .menu-item .text {
+    float: left;
+    color: rgb(0, 0, 0);
+}
+
+.menu-item .icon {
+    color: rgb(44 70 86);
+    font-size: 1.25em;
+    margin: 0 1em 0 0;
+}
+.menu-item .icon-box {
+    cursor: pointer;
+}
+.menu-item .icon-box {
+    float: left;
+    width: 100%;
+    margin: 0;
+    height: 4em;
+    row-gap: 0;
+    line-height: 1em;
+}
+
+.menu-item .icon-box .text i {
+    clip-path: inset(0 100% 0 0);
+    font-size: 0.75em;
+    position: relative;
+    top: -1px;
+}
+
+
+.icon-box.gb .icon i:before {
+    background: linear-gradient(45deg, #0c86ef, #0cef9b);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-left: 1px;
+}
+
+#info-box {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+#info-box ul {
+    list-style: none;
+}
+#info-box a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 0.5em 0;
+    transition: all 0.1s ease-out;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#info-box a:hover {
+    color: rgba(255,255,255,0.5);
+}
+
+
