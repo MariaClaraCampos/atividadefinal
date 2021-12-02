@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+body {
+    margin: 100;
+    padding: 0;
+    background: #5f9ea0;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    background-size: cover;
+}
+
+#registros {
+	color: #ffffff;
+}
+
+#info-box {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+#info-box ul {
+    list-style: none;
+}
+#info-box a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 0.5em 0;
+    transition: all 0.1s ease-out;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#info-box a:hover {
+    color: rgba(255,255,255,0.5);
+}
